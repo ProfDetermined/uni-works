@@ -20,5 +20,4 @@ void main(void) {
         printf("you have entering invalid options for 3 times \n");
     else
         printf("Your option '%c' is valid \n", option);
-    
 }
