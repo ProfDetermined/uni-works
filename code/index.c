@@ -1,28 +1,17 @@
 #include <stdio.h>
+#include <curses.h>
 
-void main(void) {
-    int num = 0;
+int main() {
+    char id [3] [9];
+    float point [3];
+    int i;
 
-    printf("Odd no. between 1-10 : ");
-
-    do
-    {
-        num++;
-
-        if ( (num % 2) == 0 )
-            continue;
-
-        printf("%-2d", num);
-    } while (num < 10);
-
-    printf("\n\nEven No. between 1-10 : ");
-
-    for (num = 1; num <= 10; num++) {
-        if ((num % 2) == 1)
-            continue;
-        
-        printf("%-2d", num);
+    for (i = 1; i < 4; i++) {
+        printf("Enter ID [No. %d] : ", i);
+        scanf("%s", id[i]);
+        printf("Enter Score [No. %d] : ", i);
+        scanf("%f", &point[i]);
     }
 
-    printf("\n\n");
+    return 0;
 }
