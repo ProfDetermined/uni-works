@@ -3,7 +3,7 @@
 void main(void) {
     int num = 0;
 
-    printf("the odd no. between 1-10 : ");
+    printf("Odd no. between 1-10 : ");
 
     do
     {
