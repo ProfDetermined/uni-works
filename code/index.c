@@ -8,11 +8,10 @@ void main(void) {
     {
         printf("enter your option (A-F) : ");
         option = getchar();
+        i++;
 
         if(i == 3)
             break;
-
-        i++;
 
     } while (option < 'A' || option > 'F');
 
