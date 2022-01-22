@@ -1,22 +1,28 @@
 #include <stdio.h>
 
 void main(void) {
-    int i = 1;
-    char option;
+    int num = 0;
+
+    printf("the odd no. between 1-10 : ");
 
     do
     {
-        printf("enter your option (A-F) : ");
-        option = getchar();
-        i++;
+        num++;
 
-        if(i == 3)
-            break;
+        if ( (num % 2) == 0 )
+            continue;
 
-    } while (option < 'A' || option > 'F');
+        printf("%-2d", num);
+    } while (num < 10);
 
-    if (option < 'A' || option > 'F')
-        printf("you have entering invalid options for 3 times \n");
-    else
-        printf("Your option '%c' is valid \n", option);
+    printf("\n\nEven No. between 1-10 : ");
+
+    for (num = 1; num <= 10; num++) {
+        if ((num % 2) == 1)
+            continue;
+        
+        printf("%-2d", num);
+    }
+
+    printf("\n\n");
 }
