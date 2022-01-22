@@ -9,7 +9,7 @@ int n,m;
 
 int main() {
     for (n = 0; n < HEIGHT; n++) {
-        for (m = 0; m < HEIGHT; m++) {
+        for (m = 0; m < WIDTH; m++) {
             square[n][m] = (n + 1)*(m + 1);
             printf("square [%d][%d] = %d\n", n, m, square[n][m]);
         }
