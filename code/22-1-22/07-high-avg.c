@@ -8,14 +8,14 @@ int main() {
     int range3 = 0;
     int range4 = 0;
     float avg = 0;
-    int high[300];
+    float high[300];
 
     printf("Enter Amount of People : ");
     scanf("%d", &num);
     
     for(a = 0; a < num; a++) {
         printf("\nEnter Height : ");
-        scanf("%d", &high[a]);
+        scanf("%.2f", &high[a]);
     }
 
     printf("\n\n");
@@ -67,7 +67,7 @@ int main() {
 
     for ( a = 0; a < num; a++ ) {
         int aA = a + 1;
-        printf("User %d's height : %d\n", aA,  high[a]);
+        printf("User %d's height : %.2f\n", aA,  high[a]);
     }
 
     printf("\n\n");
