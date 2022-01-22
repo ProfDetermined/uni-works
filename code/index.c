@@ -19,6 +19,6 @@ void main(void) {
     if (option < 'A' || option > 'F')
         printf("you have entering invalid options for 3 times \n");
     else
-        printf("Your option '%c' is valid", option);
+        printf("Your option '%c' is valid \n", option);
     
 }
