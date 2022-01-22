@@ -6,7 +6,7 @@ int main() {
     int i;
 
     for (i = 0; i < 5; i++) {
-        printf("%d\n", year[i]);
+        printf("%d. %d\n", i,  year[i]);
     }
 
     return 0;
