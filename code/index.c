@@ -1,12 +1,24 @@
 #include <stdio.h>
 
-int Feet2Inch(int);
-int feet, inches;
+void main(void) {
+    int i = 1;
+    char option;
 
-int main() {
-    feet = 6;
-    inches = Feet2Inch (feet);
-    printf ("Height in Inches is %d", inches);
+    do
+    {
+        printf("enter your option (A-F) : ");
+        option = getchar();
+
+        if(i == 3)
+            break;
+
+        i++;
+
+    } while (option < 'A' || option > 'F');
+
+    if (option < 'A' || option > 'F')
+        printf("you have entering invalid options for 3 times \n");
+    else
+        printf("Your option '%c' is valid", option);
+    
 }
-
-int Feet2

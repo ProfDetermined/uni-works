@@ -1,3 +1,3 @@
 # compile
 
-gcc "file.c" -o "out" || ./out
+gcc "index.c" -o "index" || ./index
