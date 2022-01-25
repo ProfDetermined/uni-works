@@ -8,6 +8,7 @@ int main() {
 
     printf("Z = %d\n", z);
     printf("Z pointer = %p\n", ZPtr);
+    printf("Z pointer = %p\n", ZPtr);
 
     return 0;
 }
