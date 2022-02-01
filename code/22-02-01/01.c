@@ -16,5 +16,13 @@ int main() {
     printf("pointer's value that point to ip : %d\n", *ip);
     printf("y's value : %d\n", y);
 
+    printf("\n\n");
+
+    ip++;
+    y = *ip;
+
+    printf("ip's value : %p\n", ip);
+    printf("pointer's value that point to ip : %d\n", *ip);
+
     return 0;
 }
