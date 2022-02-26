@@ -70,7 +70,7 @@ char getChoice(char min, char max) {
         scanf("%c", &inp);
     } while (ch < min || ch > max);
     
-    ch = getchar(inp);
+    // ch = getchar();
 
     return ch;
 }
