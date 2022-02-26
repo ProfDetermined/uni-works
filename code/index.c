@@ -7,14 +7,21 @@
 
 // #include <curses.h>
 
-void mp();
-
-void main() {
-    mp();
-
-    // return 0;
+void mp(int x) {
+    printf("%d", x);
 }
 
-void mp() {
-    printf("Hello, world!");
+void mp2(char inp, int y) {
+    while (y > 0) {
+        printf("%c", inp);
+        y--;
+    }
+}
+
+void main() {
+    mp(2);
+
+    mp2('a', 5);
+
+    // return 0;
 }
