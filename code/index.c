@@ -8,7 +8,7 @@
 // #include <curses.h>
 
 
-int func(int a, int b) {
+int func() {
 
 }
 
