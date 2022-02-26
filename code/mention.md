@@ -1,3 +1,3 @@
 # compile
 
-gcc "index.c" -o "index" || ./index
+gcc "filename" -o "output" || ./output
