@@ -1,13 +1,10 @@
 #include <stdio.h>
-// #include <ctype.h>
-// #include <conio.h>
-// #include <math.h>
-// #include <stdlib.h>
-// #include <string.h>
-
-// #include <curses.h>
-
 
 void main() {
+int i;
+
+for (i = 2; i <= 5; i += 2) {
+  printf("%d\n", i);
+}
 
 }
