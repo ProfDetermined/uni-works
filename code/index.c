@@ -1,10 +1,18 @@
 #include <stdio.h>
 
-void main() {
-int i;
 
-for (i = 2; i <= 5; i += 2) {
-  printf("%d\n", i);
-}
 
+int main() {
+    int a[4] = {1,2,3,4};
+    int *ptr;
+
+    printf("%p\n", &a[3]);
+    printf("%p\n", ptr);
+
+    ptr = &a[3];
+
+    printf("%p\n", ptr);
+    printf("%d\n", *ptr);
+
+    return 0;
 }
