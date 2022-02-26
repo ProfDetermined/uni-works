@@ -11,7 +11,7 @@ int num;
 
 int func(int n) {
     int i = 1;
-    for(i = 1; i < n; i++){
+    for(i = 1; i <= n; i++){
         printf("*");
     }
     printf("\n");
