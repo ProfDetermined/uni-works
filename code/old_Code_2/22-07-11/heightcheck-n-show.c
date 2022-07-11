@@ -15,9 +15,9 @@ int main() {
 
     if (height[i] <= 160 && height[i] >= 0) {
       hRange[0]++;
-    } else if (height[i] > 160 && height[i] <= 171) {
+    } else if (height[i] > 160 && height[i] <= 170) {
       hRange[1]++;
-    } else if (height[i] > 170 && height[i] <= 181) {
+    } else if (height[i] > 170 && height[i] <= 180) {
       hRange[2]++;
     } else if (height[i] > 180 && height[i] <= 200) {
       hRange[3]++;
