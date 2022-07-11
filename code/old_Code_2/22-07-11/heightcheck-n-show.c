@@ -32,6 +32,8 @@ int main() {
   avg = fullHeight / n;
 
   printf("\n\n");
+  printf("|===================================================|\n");
+  printf("\n\n");
 
   printf("Amount of Student : %d\n\n", n);
 
