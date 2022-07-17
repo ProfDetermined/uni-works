@@ -22,16 +22,11 @@ int main() {
     printf("Error :( \n");
     exit(0);
   }
-  
-  printf ("Enter Your Money : ");
-  scanf ("%d",&Money);
-  
-  if (Money<=99) {
-    printf ("Error!");
-  }
-  if (Money>=20000.1) {
-    printf ("Error!");
-  }
+
+  do {
+    printf ("Enter Your Money : ");
+    scanf ("%d",&Money);
+  } while (Money < 100 || Money >20000);
   
   if (Money/1000!=0) {
     Amount=Money/1000;
