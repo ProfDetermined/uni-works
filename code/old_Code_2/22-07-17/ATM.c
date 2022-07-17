@@ -26,7 +26,7 @@ int main() {
   do {
     printf ("Enter Your Money : ");
     scanf ("%d",&Money);
-  } while (Money < 100 || Money >20000);
+  } while ((Money < 100) || (Money >20000));
   
   if (Money/1000!=0) {
     Amount=Money/1000;
