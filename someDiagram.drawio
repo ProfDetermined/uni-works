@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T06:04:05.031Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="TO4ZLximPUPrUS-Rk2gH" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-17T06:08:02.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="boOm2q6anqHKW9YszxNn" version="20.1.1" type="github">
   <diagram id="wp_xYZn4VHThL3dPTbGy" name="Page-1">
-    <mxGraphModel dx="2339" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3636" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="-235" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GzxjLerJVdwIG-m4BnVG-2" value="&lt;font style=&quot;font-size: 24px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Kanit&quot; face=&quot;Kanit&quot;&gt;End&lt;br&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-720" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="-235" y="1860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6BlYEiezsDOIZgSB7BCF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-4" target="6BlYEiezsDOIZgSB7BCF-27">
           <mxGeometry relative="1" as="geometry" />
@@ -34,10 +34,10 @@
         <mxCell id="6BlYEiezsDOIZgSB7BCF-31" value="Read amount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-255" y="585" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6BlYEiezsDOIZgSB7BCF-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-32" target="GzxjLerJVdwIG-m4BnVG-2">
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-32" target="6BlYEiezsDOIZgSB7BCF-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6BlYEiezsDOIZgSB7BCF-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-32" target="6BlYEiezsDOIZgSB7BCF-38">
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-32" target="6BlYEiezsDOIZgSB7BCF-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6BlYEiezsDOIZgSB7BCF-32" value="amount &amp;lt; 100 || amount&amp;nbsp; &amp;gt;&amp;nbsp;20000" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
@@ -91,14 +91,63 @@
         <mxCell id="6BlYEiezsDOIZgSB7BCF-50" value="&lt;span style=&quot;font-family: Kanit; font-size: 20px;&quot;&gt;note = amount / 100&lt;/span&gt;&lt;br style=&quot;font-family: Kanit; font-size: 20px;&quot;&gt;&lt;span style=&quot;font-family: Kanit; font-size: 20px;&quot;&gt;amount = amount % 100&lt;/span&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Kanit&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="144" y="1345" width="270" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-52" target="6BlYEiezsDOIZgSB7BCF-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6BlYEiezsDOIZgSB7BCF-52" value="1000 banknote = note" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="490" y="940" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-53" target="6BlYEiezsDOIZgSB7BCF-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6BlYEiezsDOIZgSB7BCF-53" value="500 banknote = note" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="490" y="1140" width="260" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-54" target="6BlYEiezsDOIZgSB7BCF-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6BlYEiezsDOIZgSB7BCF-54" value="100 banknote = note" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="490" y="1340" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-58" target="6BlYEiezsDOIZgSB7BCF-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-58" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="975" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-60" target="6BlYEiezsDOIZgSB7BCF-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-60" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1175" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-63" target="6BlYEiezsDOIZgSB7BCF-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-63" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1375" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-66" target="6BlYEiezsDOIZgSB7BCF-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-680" y="1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="765" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-68" target="GzxjLerJVdwIG-m4BnVG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-68" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-205" y="1640" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" edge="1" parent="1" source="6BlYEiezsDOIZgSB7BCF-69" target="6BlYEiezsDOIZgSB7BCF-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6BlYEiezsDOIZgSB7BCF-69" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fontFamily=Kanit;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKanit;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1640" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
