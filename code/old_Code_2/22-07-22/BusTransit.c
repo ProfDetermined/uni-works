@@ -58,7 +58,7 @@ int main() {
     printf("\n");
     printf("=============================================================");
     printf("\n");
-  } while(i < 32);
+  } while(i <= 32);
 
   printf("Final income == %.2f\n", sum);
   
