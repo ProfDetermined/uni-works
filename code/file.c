@@ -9,23 +9,26 @@ int main() {
 
   printf("\n\n");
 
-  for(i=0; i<n; i++) {
-    for(j=0; j<n; j++) {
+  i=0;
 
+  while (i<n) {
+    j=0;
+    while (j<n) {
       if((i == 0) || (i == n-1)) {
         printf("*");
       } else {
-
-        if ((j == 0) || (j == n-1)) {
+        if ((j==0) || (j == n-1)) {
           printf("*");
         } else {
           printf(" ");
         }
-        
       }
 
+      j++;
     }
+
     printf("\n");
+    i++;
   }
   
   return 0; 
