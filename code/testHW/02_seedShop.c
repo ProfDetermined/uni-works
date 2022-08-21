@@ -4,7 +4,7 @@
 int main() {
   int seed[5] = {0,0,0,0,0};
   int allSeed[5] = {0,0,0,0,0};
-  int day, list, ctm = 0, i, amount;
+  int day, list, ctm = 1, i, amount;
   char sInp;
 
   do {
@@ -13,6 +13,8 @@ int main() {
       seed[i] = 0;
       i++;
     } while(i<5);
+
+    printf("Custemer : #%d\n", ctm);
 
     do {
       printf("Welcome to Uncle Nhuad Seed Shop\n");
@@ -56,18 +58,28 @@ int main() {
     } while(list != 0);
     ctm += ctm;
 
-    printf("\n\n");
-    printf("\ta. Rose apple : %.2f\n", allSeed[0] * 150.00);
-    printf("\tb. Mangosteen : %.2f\n", allSeed[1] * 200.00);
-    printf("\tc. Durian : %.2f\n", allSeed[2] * 350.50);
-    printf("\td. Jack Fruit : %.2f\n", allSeed[3] * 180.00);
-    printf("\te. Forest Tree : %.2f\n", allSeed[4] * 3.50);
+    printf("\ta. Rose apple : %.2f\n", seed[0] * 150.00);
+    printf("\tb. Mangosteen : %.2f\n", seed[1] * 200.00);
+    printf("\tc. Durian : %.2f\n", seed[2] * 350.50);
+    printf("\td. Jack Fruit : %.2f\n", seed[3] * 180.00);
+    printf("\te. Forest Tree : %.2f\n", seed[4] * 3.50);
     printf("\n\n");
 
     printf("Enter 0 to end this day? : ");
     scanf("%d", &day);
     
-  } while(day != 0); 
+  } while(day != 0);
+
+  printf("\n\n");
+
+  printf("Conclusion");
+  printf("\n\n");
+  printf("\ta. Rose apple : %.2f\n", allSeed[0] * 150.00);
+  printf("\tb. Mangosteen : %.2f\n", allSeed[1] * 200.00);
+  printf("\tc. Durian : %.2f\n", allSeed[2] * 350.50);
+  printf("\td. Jack Fruit : %.2f\n", allSeed[3] * 180.00);
+  printf("\te. Forest Tree : %.2f\n", allSeed[4] * 3.50);
+  printf("\n\n");
 
   return 0;
 }
