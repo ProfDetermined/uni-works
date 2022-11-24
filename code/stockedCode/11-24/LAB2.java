@@ -1,6 +1,6 @@
 // No 38
 
-public class main {
+public class LAB2 {
 	public static void main(String[] args) {
 		int rad1 = 5;
 		float rad2 = 3.7f;
