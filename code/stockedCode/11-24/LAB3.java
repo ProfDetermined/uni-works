@@ -16,6 +16,10 @@ public class LAB3 {
 		float price2Total = price2 + price1vat;
 		float price3Total = price3 + price1vat;
 
+		float priceTotal = price1 + price2 + price3;
+		float vatTotal = price1vat + price2vat + price3vat;
+		float sumTotal = price1Total + price2Total + price3Total;
+
 		System.out.println("TV Price == " + price1);
 		System.out.println("TV VAT == " + price1vat);
 		System.out.println("TV Total == " + price1Total);
@@ -31,5 +35,11 @@ public class LAB3 {
 		System.out.println("Phone Price == " + price3);
 		System.out.println("Phone VAT == " + price3vat);
 		System.out.println("Phone Total == " + price3Total);
+
+		System.out.println("");
+
+		System.out.println("Price Total == " + priceTotal);
+		System.out.println("VAT Total == " + vatTotal);
+		System.out.println("TOTAL == " + sumTotal);
 	}
 }
