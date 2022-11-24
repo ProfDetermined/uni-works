@@ -20,17 +20,17 @@ public class LAB4 {
 		float avSpd2 = dist / hr2;
 		float avSpd3 = dist / hr3;
 
-		System.out.println("1st Fuel Consumption : " + gas1 + "km/litre");
-		System.out.println("1st Avarage Speed : " + avSpd1 + "km/hr");
+		System.out.println("1st Fuel Consumption : " + gas1 + " km/litre");
+		System.out.println("1st Avarage Speed : " + avSpd1 + " km/hr");
 
 		System.out.println("");
 
-		System.out.println("2nd Fuel Consumption : " + gas2 + "km/litre");
-		System.out.println("2nd Avarage Speed : " + avSpd2 + "km/hr");
+		System.out.println("2nd Fuel Consumption : " + gas2 + " km/litre");
+		System.out.println("2nd Avarage Speed : " + avSpd2 + " km/hr");
 		
 		System.out.println("");
 		
-		System.out.println("3rd Fuel Consumption : " + gas3 + "km/litre");
-		System.out.println("3rd Avarage Speed : " + avSpd3 + "km/hr");
+		System.out.println("3rd Fuel Consumption : " + gas3 + " km/litre");
+		System.out.println("3rd Avarage Speed : " + avSpd3 + " km/hr");
 	}
 }
