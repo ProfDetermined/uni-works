@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class main {
+public class Lab2 {
 	String name, position;
 	int OT;
 	Double salary, rate;
@@ -20,7 +20,7 @@ public class main {
 
 	public static void main(String[] args) {
 		Scanner inp = new Scanner(System.in);
-		main employee = new main();
+		Lab2 employee = new Lab2();
 
 		System.out.println("Enter Name: ");
     String nameInp = inp.nextLine();
