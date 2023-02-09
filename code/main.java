@@ -12,7 +12,7 @@ public class main {
     do {
       String depMenu;
       String title = "Money Management :D";
-      String mainMenu = "Money Management :D\n 1. Withdraw\n 2. Deposit\n 3. balance\n 4.Exit\n Please enter your number..\n";
+      String mainMenu = "Money Management :D\n 1. Withdraw\n 2. Deposit\n 3. Balance\n 4.Exit\n Please enter your number..\n";
       depMenu = JOptionPane.showInputDialog(null, mainMenu, title, JOptionPane.QUESTION_MESSAGE);
       menu = Integer.parseInt(depMenu);
 
