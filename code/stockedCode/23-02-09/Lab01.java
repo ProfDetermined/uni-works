@@ -3,7 +3,7 @@
 import javax.swing.*;
 import java.util.Scanner;
 
-public class main {
+public class Lab01 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
     int menu = 0;
