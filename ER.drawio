@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T06:44:31.976Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qXNM0igOG2r4RMgE56xe" version="22.1.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-15T07:07:56.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LCbq-U2Mt9InbbvUGoPf" version="22.1.18" type="github" pages="3">
   <diagram name="Page-1" id="e32LMay1MaZqYgPxD3qw">
     <mxGraphModel dx="847" dy="1247" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8zvI5RcoH8NCSEAP0URG" name="Page-3">
-    <mxGraphModel dx="1529" dy="1529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1459" dy="1459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,10 +158,10 @@
             <mxPoint x="323" y="-278" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JNUhBjEXETYG50dhy3GQ-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="JNUhBjEXETYG50dhy3GQ-5">
+        <mxCell id="JNUhBjEXETYG50dhy3GQ-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="322" y="-277" as="sourcePoint" />
-            <mxPoint x="365" y="-80" as="targetPoint" />
+            <mxPoint x="324" y="-277" as="sourcePoint" />
+            <mxPoint x="-87" y="-276.99999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JNUhBjEXETYG50dhy3GQ-18" value="ข้อมูลผู้ใช้งาน" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="JNUhBjEXETYG50dhy3GQ-17">
@@ -169,8 +169,8 @@
         </mxCell>
         <mxCell id="JNUhBjEXETYG50dhy3GQ-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="296" y="-244" as="sourcePoint" />
-            <mxPoint x="-89" y="-244.38" as="targetPoint" />
+            <mxPoint x="297" y="-244" as="sourcePoint" />
+            <mxPoint x="-88" y="-244.38" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JNUhBjEXETYG50dhy3GQ-20" value="ข้อมูลสถานะของภาระงาน" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="JNUhBjEXETYG50dhy3GQ-19">
@@ -187,8 +187,8 @@
         </mxCell>
         <mxCell id="JNUhBjEXETYG50dhy3GQ-23" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="299" y="8" as="sourcePoint" />
-            <mxPoint x="297" y="-246" as="targetPoint" />
+            <mxPoint x="299" y="7" as="sourcePoint" />
+            <mxPoint x="297" y="-245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JNUhBjEXETYG50dhy3GQ-24" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
@@ -225,6 +225,36 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-287" y="145" as="sourcePoint" />
             <mxPoint x="-287" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNUhBjEXETYG50dhy3GQ-31" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362" y="-295" as="sourcePoint" />
+            <mxPoint x="747" y="-295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNUhBjEXETYG50dhy3GQ-32" value="ข้อมูลผู้ดูแลระบบ" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="JNUhBjEXETYG50dhy3GQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNUhBjEXETYG50dhy3GQ-33" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JNUhBjEXETYG50dhy3GQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362.75" y="-23" as="sourcePoint" />
+            <mxPoint x="362.75" y="-295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNUhBjEXETYG50dhy3GQ-34" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="386" y="-260" as="sourcePoint" />
+            <mxPoint x="751" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNUhBjEXETYG50dhy3GQ-35" value="ข้อมูลภาระงานที่รอตรวจสอบทั้งหมด" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="JNUhBjEXETYG50dhy3GQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNUhBjEXETYG50dhy3GQ-38" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388" y="-8" as="sourcePoint" />
+            <mxPoint x="387" y="-260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
